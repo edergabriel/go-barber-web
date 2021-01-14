@@ -16,7 +16,7 @@ export const Container = styled.div`
 
         position: absolute;
         bottom: calc(100% + 12px);
-        left: 50%;
+        left: -71px;
         transform: translateX(-50%)
 
         color: #312e38;
@@ -28,12 +28,12 @@ export const Container = styled.div`
             border-width: 6px 6px 0 6px;
             top: 100%;
             position: absolute;
-            left: 50%;
+            left: 81px;
             transform: translateX(-50%);
         }
     }
 
-    &:hover {
+    &:hover span {
         opacity: 1;
         visibility: visible;
     }
